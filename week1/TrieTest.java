@@ -5,7 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-
+/**
+ * TrieTest class - client program to test the Trie data structure
+ *
+ * @author Vivekanand Ganapathy Nagarajan
+ * @version 1.0 August 2nd, 2016
+ */
 
 public class TrieTest {
     class FastScanner {

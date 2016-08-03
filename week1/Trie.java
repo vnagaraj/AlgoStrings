@@ -9,7 +9,7 @@ import java.util.*;
  */
 class Trie{
 
-    private TrieNode root;
+    TrieNode root;
     private int counter;
 
     Trie(String[] patterns){
@@ -67,7 +67,7 @@ class Trie{
         return newTrieNode;
     }
 
-    private class TrieNode {
+    class TrieNode {
         Character c;
         int val;
         HashMap<Character, TrieNode> children;
