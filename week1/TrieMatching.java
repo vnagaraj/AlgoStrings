@@ -1,9 +1,9 @@
 package week1;
 /**
- * TrieMatching class - uses Trie to store patterns and matches the Text with the Trie data structure
+ * ExtendedTrieMatching class - uses Trie to store patterns and matches the Text with the Trie data structure
  *
  * @author Vivekanand Ganapathy Nagarajan
- * @version 1.0 August 2nd, 2016
+ * @version 2.0 August 2nd, 2016
  */
 
 class TrieMatching{

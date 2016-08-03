@@ -27,6 +27,9 @@ class Trie{
             for (int char_index=0; char_index < pattern.length(); char_index++){
                 Character c = pattern.charAt(char_index);
                 trieNode = insertTrie(c, trieNode);
+                if (char_index == pattern.length() -1) {
+                    trieNode.pattern = true;
+                }
             }
         }
     }
@@ -71,6 +74,7 @@ class Trie{
         Character c;
         int val;
         HashMap<Character, TrieNode> children;
+        boolean pattern;//to check if path already formed at node during pattern match
 
         TrieNode(Character c){
             this.c = c;

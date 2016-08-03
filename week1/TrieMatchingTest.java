@@ -1,12 +1,14 @@
 package week1;
 
 import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
- * TrieMatchingTest class - client program to test the TrieMatching data structure
+ * week1.TrieMatchingTest class - client program to test the week1.TrieMatching data structure
  *
  * @author Vivekanand Ganapathy Nagarajan
- * @version 1.0 August 2nd, 2016
+ * @version 2.0 August 2nd, 2016
  */
 public class TrieMatchingTest implements Runnable {
 
@@ -31,3 +33,6 @@ public class TrieMatchingTest implements Runnable {
 		new Thread (new TrieMatchingTest ()).start ();
 	}
 }
+
+
+
