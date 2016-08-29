@@ -10,11 +10,6 @@ import java.util.HashMap;
  */
 class BetterSuffixArray{
     int[] order; // compute order of the suffixes
-    private static int A = 0;
-    private static int C = 1;
-    private static int T = 2;
-    private static int G = 3;
-    private static int $ = 4; //last character of String
     private static HashMap<Character, Integer> charIntMap = getCharIntMap();
 
 
